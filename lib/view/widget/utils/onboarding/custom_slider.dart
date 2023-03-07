@@ -32,7 +32,7 @@ class CustomSlider extends GetView<OnBoardingController> {
                       controller.skip();
                     },
                     child: Text(
-                      "skip",
+                      index !=2 ? "skip" : "",
                       style: TextStyle(
                           fontFamily: "Cairo",
                           color: Colors.black,

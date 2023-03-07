@@ -26,7 +26,7 @@ class RegisterScreen extends StatelessWidget {
       resizeToAvoidBottomInset: false,
       body: SafeArea(
           child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
+              padding:  EdgeInsets.symmetric(horizontal: 20.w),
               child: Form(
                 key: controller.formKye,
                 child: Column(
@@ -34,7 +34,7 @@ class RegisterScreen extends StatelessWidget {
                     SizedBox(
                       height: 50.h,
                     ),
-                    Image.asset(ImageUrl.logo),
+                    Image.asset(ImageUrl.logo,width: 100.w,height: 100.h,),
                     SizedBox(
                       height: 10.h,
                     ),

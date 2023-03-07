@@ -28,7 +28,7 @@ class ProductDetails extends StatelessWidget {
         iconTheme: const IconThemeData(color: Colors.black),
         actions: [
           Padding(
-            padding: EdgeInsets.all(8),
+            padding: EdgeInsets.all(8.w),
             child: Icon(
               Icons.favorite,
               color: status == true ? Colors.red : Colors.grey,
@@ -37,7 +37,7 @@ class ProductDetails extends StatelessWidget {
         ],
       ),
       body: Container(
-        margin: const EdgeInsets.all(10),
+        margin:  EdgeInsets.all(10.w),
         child: Column(
           children: [
             Image.asset(
@@ -47,11 +47,11 @@ class ProductDetails extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             SizedBox(
-              height: 80.h,
+              height: 70.h,
             ),
             Expanded(
               child: Container(
-                padding: const EdgeInsets.all(15),
+                padding:  EdgeInsets.all(15.w),
                 decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.only(
@@ -101,31 +101,31 @@ class ProductDetails extends StatelessWidget {
                     Row(
                       children: [
                         Container(
-                          width: 35.w,
-                          height: 35.h,
+                          width: 30.w,
+                          height: 30.h,
                           decoration: BoxDecoration(
                               color: Colors.tealAccent,
                               borderRadius: BorderRadius.circular(50).r),
                         ),
                         Container(
-                          width: 35.w,
+                          width: 30.w,
                           margin: const EdgeInsets.only(left: 10),
-                          height: 35.h,
+                          height: 30.h,
                           decoration: BoxDecoration(
                               color: Colors.blueAccent,
                               borderRadius: BorderRadius.circular(50).r),
                         ),
                         Container(
-                          width: 35.w,
+                          width: 30.w,
                           margin: const EdgeInsets.only(left: 10),
-                          height: 35.h,
+                          height: 30.h,
                           decoration: BoxDecoration(
                               color: Colors.pinkAccent,
                               borderRadius: BorderRadius.circular(50).r),
                         ),
                         Container(
-                          width: 35.w,
-                          height: 35.h,
+                          width: 30.w,
+                          height: 30.h,
                           margin: const EdgeInsets.only(left: 10),
                           decoration: BoxDecoration(
                               color: Colors.blueGrey,

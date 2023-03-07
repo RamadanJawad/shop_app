@@ -20,14 +20,14 @@ class CategoryWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = Get.put(HomeController());
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 15),
+      padding:  EdgeInsets.symmetric(vertical: 10.w),
       child: ListView.separated(
         separatorBuilder: (context, index) => SizedBox(
           width: 20.w,
         ),
         itemCount: controller.images.length,
         scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 7),
+        padding:  EdgeInsets.symmetric(horizontal: 7.w),
         itemBuilder: (context, index) {
           if (controller.isLoading) {
             return const Center(
@@ -40,7 +40,7 @@ class CategoryWidget extends StatelessWidget {
               onTap: () => callback(index),
               child: Container(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 18),
+                     EdgeInsets.symmetric(vertical: 5.w, horizontal: 18.w),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10).r,
                   boxShadow: [

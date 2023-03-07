@@ -33,7 +33,7 @@ class LoginScreen extends StatelessWidget {
                     SizedBox(
                       height: 50.h,
                     ),
-                    Image.asset(ImageUrl.logo),
+                    Image.asset(ImageUrl.logo,width: 100.w,height: 100.h,),
                     SizedBox(
                       height: 10.h,
                     ),

@@ -55,10 +55,10 @@ class ProfileScreen extends StatelessWidget {
             children: [
               Expanded(
                 child: Container(
-                  margin:const EdgeInsets.all(10),
-                  padding:const EdgeInsets.all(3),
+                  margin: EdgeInsets.all(10.w),
+                  padding: EdgeInsets.all(3.w),
                   width: 120.w,
-                  height: 120.h,
+                  height: 125.h,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10).r,
                       color: Colors.white),
@@ -95,7 +95,7 @@ class ProfileScreen extends StatelessWidget {
                   margin:const EdgeInsets.all(10),
                   padding:const EdgeInsets.all(3),
                   width: 120.w,
-                  height: 120.h,
+                  height: 125.h,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10).r,
                       color: Colors.white),
@@ -132,7 +132,7 @@ class ProfileScreen extends StatelessWidget {
                   margin:const EdgeInsets.all(10),
                   padding:const EdgeInsets.all(3),
                   width: 120.w,
-                  height: 120.h,
+                  height: 125.h,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10).r,
                       color: Colors.white),
