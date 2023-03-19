@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_zoom_drawer/config.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
-import 'package:shop_app/core/constant/color.dart';
+
 import 'package:shop_app/view/screen/home/main_screen.dart';
 import 'package:shop_app/view/widget/home/menu_widget.dart';
 

@@ -21,7 +21,7 @@ class SplashScreen extends StatelessWidget {
             height: 10.h,
           ),
           Text(
-            "E-commerce app",
+            "1".tr,
             style: TextStyle(
                 fontFamily: "Cairo",
                 fontSize: 25.sp,

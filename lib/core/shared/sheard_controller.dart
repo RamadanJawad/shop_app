@@ -1,6 +1,3 @@
-import 'dart:developer';
-
-import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shop_app/model/users.dart';
 
@@ -31,6 +28,12 @@ class SharedPrefController {
   Future<void> saveIsBoarding() async {
     await _sharedPreferences.setBool(PrefKeys.isBoardingIn.name, true);
   }
+
+  Future<void> saveLanguage(String langCode) async {
+    await _sharedPreferences.setString("lang", langCode);
+  }
+
+  String get language => _sharedPreferences.getString("lang") ?? '';
 
   Future<bool> clear() async => _sharedPreferences.clear();
   bool get loggedIn =>
